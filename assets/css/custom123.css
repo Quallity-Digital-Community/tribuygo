@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;  
+  bottom:1px;
+  right: -65px;
+  width: 40px;
+  height: 37px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+
+  border-radius: 0px 30px 30px 0px; ;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.easy-autocomplete{
+
+  width:100%;
+}
+
+.footer{
+background-color: #f8f9fa!important;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+ text-align: center;
+
+}
+a{
+	text-decoration: none;
+	color:none;
+}
+
+.appLinksModule.jsx-3729605677 a.ios.jsx-3729605677 {
+    background-position: 0 0;
+}
+
+.appLinksModule.jsx-3729605677 a.jsx-3729605677+a.jsx-3729605677 {
+    margin-left: 10px;
+}
+.appLinksModule.jsx-3729605677 a.android.jsx-3729605677 {
+    background-position: 0 -84px;
+}
+
+.appLinksModule.jsx-3729605677 a.android.jsx-3729605677 {
+    background-size: 184px auto;
+}
+
+
+.appLinksModule.jsx-3729605677 a.jsx-3729605677 {
+    display: inline-block;
+    width: 135px;
+    height: 40px;
+    background: url('http://localhost/assets/images/sprite.png') no-repeat -2000px 0 / 187px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    /* transition: opacity 0.2s ease-in-out; */
+}
